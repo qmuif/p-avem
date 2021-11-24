@@ -1,0 +1,14 @@
+.playlists{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .playlist {
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
